@@ -1,10 +1,13 @@
-
-<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<head>
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script></head><body>
 <script>
   var OneSignal = window.OneSignal || [];
   OneSignal.push(function() {
     OneSignal.init({
       appId: "8d33d4f0-0356-4e36-ad1c-1815fc24d063",
+      notifyButton: {
+        enable: true,
+      },
     });
   });
-</script>
+    </script></body>
